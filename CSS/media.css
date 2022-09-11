@@ -10,11 +10,16 @@
         flex-direction: row;
    }
 
+   main {
+    width: 100%;
+   }
+
    .logo {
         padding-left: 10px;
    }
 
    .navegar {
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: end;
@@ -42,8 +47,12 @@
         flex-direction: column;
     }
 
-    .banner {
-        display: block;
+    .banner img {
+        display: inline-block;
+        width: 100vw;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .card-curiosidades {
@@ -51,11 +60,13 @@
         height: 100%;
         display: flex;
         flex-direction: row;
+        gap: 10px;
     }
 
     .curiosidade-1 {
-        margin: 20px 10px 20px 10px;
+        margin: 10px 10px 20px 10px;
         width: 33%;
+        height: 100%;
     }
 
     .curiosidade-1 > h4 {
@@ -70,8 +81,9 @@
     }
 
     .curiosidade-2 {
-        margin: 20px 10px 20px 10px;
+        margin: 10px 10px 20px 10px;
         width: 33%;
+        height: 100%;
     }
 
     .curiosidade-2 > h4 {
@@ -86,8 +98,8 @@
     }
 
     .curiosidade-3 {
-        margin: 20px 10px 20px 10px;
         width: 33%;
+        margin-top: 10px;
     }
 
     .curiosidade-3 > h4 {
